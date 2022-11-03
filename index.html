@@ -18,7 +18,6 @@
       rel="stylesheet"
     />
     <title>Frontend Mentor | Intro component with sign up form</title>
-
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
@@ -35,15 +34,49 @@
         <div class="container__purple-div">
           <p><span>Try it free 7 days</span> then $20/mo. thereafter</p>
         </div>
-        <form class="container__form">
-          <input id="first" type="text" placeholder="First Name" />
-          <input id="last" type="text" placeholder="Last Name" />
-          <input id="email" type="email" placeholder="Email Address" />
-          <input id="pass" type="password" placeholder="Password" />
-          <input id="btn" type="submit" value="Claim your free trial" />
-          <p>
+        <form id="form" class="container__form">
+          <div>
+            <input
+              id="first"
+              class="input"
+              type="text"
+              placeholder="First Name"
+            />
+            
+          </div>
+          <div>
+            <input
+              id="last"
+              type="text"
+              class="input"
+              placeholder="Last Name"
+            />
+          </div>
+          <div>
+            <input
+              id="email"
+              type="text"
+              class="input"
+              placeholder="Email Address"
+            />
+          </div>
+          <div>
+            <input
+              id="pass"
+              type="password"
+              class="input"
+              placeholder="Password"
+            />
+          </div>
+          <input
+            id="btn"
+            type="submit"
+            class="input"
+            value="Claim your free trial"
+          />
+          <p class="terms">
             By clicking the button, you are agreeing to our
-            <a href="http://www.google.com" target="_blank"
+            <a href="https://www.frontendmentor.io/profile/y25sanchez" target="_blank"
               >Terms and Services</a
             >
           </p>
@@ -62,5 +95,6 @@
         >.
       </p>
     </footer>
+    <script src="/validation.js"></script>
   </body>
 </html>
